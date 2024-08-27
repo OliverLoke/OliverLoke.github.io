@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    position: relative;
+}
+
+#header {
+    color: white;
+    margin-top: 150px;
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #header {
+        margin-top: -300px;
+        font-size: 1.2rem;
+    }
+}
